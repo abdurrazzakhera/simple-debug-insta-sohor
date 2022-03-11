@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AR Hera Insta-Sohor</title>
+    <title>Insta-Sohor</title>
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Latest compiled and minified CSS -->
     <link
@@ -88,8 +88,117 @@
         <h1>Reported posts</h1>
       </div>
     </main>
-    <footer></footer>
+    <footer class="container mb-3">
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button
+              class="accordion-button collapsed text-primary"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo"
+            >
+              Q. Difference between localStorage and sessionStorage?
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTwo"
+          >
+            <div class="accordion-body">
+              <table class="table table-bordered">
+                <thead>
+                  <th>No</th>
+                  <th>LocalStorage</th>
+                  <th>SessionStorage</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>01.</td>
+                    <td>
+                      LocalStorage data does not expire after the browser cloge.
+                    </td>
+                    <td>
+                      SessionStorage data is cleared when the page or tab close.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>02.</td>
+                    <td>
+                      The LocalStorage save data in browser and all all tab
+                    </td>
+                    <td>It's store data only Single and Specific tab</td>
+                  </tr>
+                  <tr>
+                    <td>03.</td>
+                    <td>LocalStorage use for long term Uses</td>
+                    <td>
+                      SessionStorage use need store some thing that changes or
+                      something temporay store.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>04.</td>
+                    <td>Storage size-10MB.</td>
+                    <td>Storage size-5MB</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button
+              class="accordion-button collapsed text-primary"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree"
+            >
+              Q. How does javascript Work?
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingThree"
+          >
+            <div class="accordion-body">
+              <strong>Ans:</strong> JavaScript is a single-threaded programming
+              language. It means , Js works like it can handle one task at a
+              time. And it uses dynamic typing, where type safety is verified at
+              the runtime. These days there are two flavors of javascript. On
+              the one hand: jS is in the browser. In here you get a bunch
+              utilities to ,modify your html document, making network request,
+              managing data and many many more. On the other hand: JS on the
+              server. There you got a very different set of utilities, that let
+              you manage the computer directly, access files and folders etc. In
+              many aspects, JS on the server is close to what other programming
+              language usually do. <br /><br />
+              So Nowadays, most of the modern web browsers support JavaScript
+              and have their JavaScript engines. For example, Google Chrome has
+              its own JavaScript engine called V8.It totally depends on the
+              web-developers how they use JavaScript and for what, because it
+              can be used for several things in web development. One of the most
+              common uses of JavaScript is to validate data given by the user in
+              the form fields.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
+    <!-- BootStrap js file  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <!-- add javascript  file  -->
     <script src="./js/app.js"></script>
   </body>
